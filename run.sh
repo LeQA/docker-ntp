@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # grab global variables
 source vars
