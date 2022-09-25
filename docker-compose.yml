@@ -4,7 +4,7 @@ services:
   ntp:
     build: .
     image: cturra/ntp:latest
-    container_name: ntp
+    container_name: ntp-server
     restart: always
     ports:
       - 123:123/udp
